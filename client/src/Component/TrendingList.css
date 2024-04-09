@@ -1,0 +1,29 @@
+.productlist {
+  width: 70%;
+  margin: 30px 15% 30px 15%;
+}
+.title-product p {
+  font-size: 14px;
+  color: rgb(109, 111, 112);
+  font-style: italic;
+}
+.title-product h1 {
+  font-size: 20px;
+  font-style: italic;
+}
+.title-product {
+  margin-bottom: 20px;
+}
+.productlist ul {
+  list-style: none;
+  padding: 0;
+}
+.products {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product {
+  width: 24.2%;
+}

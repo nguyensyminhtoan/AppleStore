@@ -1,0 +1,30 @@
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+  padding-right: 10px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  width: 70%;
+  margin: auto;
+}
+.cart-login {
+  display: flex;
+}
+.nav a:hover {
+  color: #e5c48b;
+}
+.nav .active {
+  color: #e5c48b;
+}
+.nav h1 {
+  font-style: italic;
+}
+.cart-login span {
+  margin-right: 5px;
+}

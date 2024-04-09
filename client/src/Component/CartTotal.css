@@ -1,0 +1,38 @@
+.cart-total {
+  margin: 30px 15% 30px auto;
+  font-style: italic;
+}
+.cart-total-item {
+  padding: 10%;
+  margin-top: 19%;
+  width: 380px;
+}
+.cart-total-items {
+  background-color: #f8f9fa;
+}
+.cart-total form {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: auto;
+  padding-bottom: 60px;
+}
+.cart-total input {
+  height: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.37);
+}
+.cart-total button {
+  background-color: #383838;
+  color: #fff;
+  font-size: 16px;
+  height: 35px;
+}
+.fa-gift {
+  margin-right: 10px;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 28%;
+}

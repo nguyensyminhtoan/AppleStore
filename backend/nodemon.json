@@ -1,0 +1,9 @@
+{
+  "env":{
+    "MONGODB":"mongodb+srv://donquixotex124:Saobang1@cluster0.nqawsp9.mongodb.net/asm3?retryWrites=true&w=majority&appName=Cluster0",
+    "SECRET_KEY":"secretkey",
+    "ORIGIN1":"http://localhost:3000",
+    "PWGMAIL":"nacf utjn fmqr laal",
+    "ORIGIN2":"http://localhost:3001"
+  }
+}

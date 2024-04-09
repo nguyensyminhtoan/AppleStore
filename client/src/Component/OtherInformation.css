@@ -1,0 +1,37 @@
+.other-information {
+  width: 70%;
+  margin: 30px 15% 30px 15%;
+}
+.service {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 4% 10%;
+  background-color: #d6d6d66e;
+}
+.friends {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+.text::first-line {
+  font-weight: bold;
+}
+.text {
+  font-style: italic;
+}
+.text p {
+  color: rgb(109, 111, 112);
+}
+.friends form input {
+  height: 40px;
+  width: 400px;
+}
+.friends form {
+  margin-top: 30px;
+}
+.friends button {
+  background-color: #383838;
+  height: 46px;
+  color: #fff;
+}

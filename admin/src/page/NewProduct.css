@@ -1,0 +1,28 @@
+.container-product{
+  margin-left: 200px;
+}
+.product-page{
+  background-color: rgba(223, 219, 219, 0.651);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  padding: 5%;
+  }
+  .product-page input{
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  .product-page textarea{
+    margin-bottom: 10px;
+  }
+  .product-page label{
+    margin: 10px 0;
+  }
+  .container-product button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 255);
+    color: #fff;
+  }

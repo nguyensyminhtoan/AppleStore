@@ -1,0 +1,22 @@
+.shopbanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 400px;
+  margin: 0 auto;
+
+  background-color: rgb(246, 249, 246);
+}
+.shopbanner p {
+  padding: 0 100px;
+  font-style: italic;
+}
+.bigp {
+  font-size: 32px;
+  font-weight: bold;
+}
+.smallp {
+  color: rgb(124, 124, 124);
+  font-weight: bold;
+}

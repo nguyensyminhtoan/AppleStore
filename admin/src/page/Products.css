@@ -1,0 +1,33 @@
+.container-products{
+  margin-left: 200px;
+}
+.products-page{
+  margin: 20px auto;
+  width: 70%;
+  background-color: rgba(3, 3, 3, 0.096);
+  padding: 20px;
+}
+.products-page input{
+  height: 30px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.container-products table{
+  width: 100%;
+  border-collapse: separate;
+  border: 1px solid rgb(196, 193, 193);
+  
+}
+.table-container tr:nth-child(odd) {
+  background-color: #f0f0f0; 
+}
+.table-container td:last-child{
+  width: 200px;
+}
+.table-container td button:last-child{
+ background-color: red;
+}
+.table-container td img{
+  width: 100px;
+  height: 100px;
+}

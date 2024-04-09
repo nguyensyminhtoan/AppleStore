@@ -1,0 +1,29 @@
+.table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-style: italic;
+}
+.order-info{
+  width: 70%;
+  margin: 20px auto 80px auto;
+}
+.order-info p{
+  color: #747070;
+}
+.table th, .table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  height: 50px;
+}
+.table td{
+  color: #747070;
+}
+.table th {
+  background-color: #f2f2f2;
+}
+.image{
+  max-width: 120px;
+  max-height: 120px;
+}

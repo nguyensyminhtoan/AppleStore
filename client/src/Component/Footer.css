@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  padding-left: 13%;
+  background-color: black;
+  color: #3e474b;
+  font-style: italic;
+}
+.footer ul {
+  margin-right: 10%;
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
+.footer ul h3 {
+  color: #fff;
+}

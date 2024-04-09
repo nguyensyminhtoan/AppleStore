@@ -1,0 +1,80 @@
+.dashboard{
+  background-color: rgba(0, 0, 0, 0.034);
+  width: 70%;
+  margin: 30px auto;
+  padding: 50px 30px;
+  
+}
+.container-dash{
+  margin-left: 200px;
+}
+.general-information{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  
+}
+.vnd {
+  font-size: 14px; 
+  display: inline-block;
+  transform: translateY(-8px)
+}
+.information{
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.information i{
+  color: rgba(3, 3, 3, 0.308);
+}
+.information p{
+  color: rgba(0, 0, 0, 0.404);
+}
+.table-container {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #fff;
+  padding: 8px;
+}
+
+.table-container th {
+  background-color: #fff;
+  text-align: left;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #f0f0f0; 
+}
+.table-container tr {
+  background-color: #fff;
+}
+.table-container tr:hover {
+  background-color: #6461616e;
+}
+
+.button-detail {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-detail:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,36 @@
+.navbarshop {
+  width: 30%;
+  font-style: italic;
+}
+.navbarshop ul {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(161, 161, 161, 0.041);
+}
+.navbarshop li {
+  padding-left: 20px;
+  height: 30px;
+  padding-top: 10px;
+}
+.navbarshop li:first-child {
+  background-color: black;
+  color: #fff;
+}
+.navbarshop h1 {
+  font-size: 24px;
+}
+.category {
+  background-color: #888b88e8;
+}
+.navbarshop button {
+  border: none;
+  color: rgba(112, 111, 111, 0.541);
+  background-color: rgba(161, 161, 161, 0.041);
+}
+.navbarshop button:hover {
+  color: #88963c;
+  cursor: pointer;
+}

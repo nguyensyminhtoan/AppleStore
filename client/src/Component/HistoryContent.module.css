@@ -1,0 +1,36 @@
+.table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-style: italic;
+}
+
+
+.table th, .table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  height: 50px;
+}
+.table td{
+  color: #747070;
+}
+.table th {
+  background-color: #f2f2f2;
+}
+
+.button {
+  background-color: #fff;
+  color: #747070;
+  border: 1px solid #747070;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button:hover{
+  background-color: #74707063;
+}

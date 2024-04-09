@@ -1,0 +1,39 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.form input {
+  width: 80%;
+  height: 60px;
+  border: 1px solid #706f6f42;
+  padding-left: 30px;
+}
+.cardlogin {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0.5px solid #cccccc3a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+  height: 800px;
+  margin: auto;
+}
+.form button {
+  width: 86%;
+  margin: 20px 0;
+  height: 60px;
+  background-color: #353535;
+  color: #fff;
+}
+.error-message {
+  color: red;
+}

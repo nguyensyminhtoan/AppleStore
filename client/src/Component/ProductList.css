@@ -1,0 +1,27 @@
+.products {
+  display: flex;
+
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+.product {
+  width: 24.2%;
+}
+.sort {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+.productsorts {
+  width: 100%;
+}
+.product-content {
+  position: relative;
+}
+.pagination {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
