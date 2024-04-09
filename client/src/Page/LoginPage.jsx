@@ -61,7 +61,7 @@ export default function LoginPage()
     {
       const fetchLogin = async () =>
       {
-        const sendRequest = await fetch('http://localhost:5000/user/signin', {
+        const sendRequest = await fetch('https://backendasm3.onrender.com/user/signin', {
           method: 'POST',
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -110,7 +110,7 @@ export default function LoginPage()
       // Kiểm tra xem email đã tồn tại chưa
       const fetchSignup = async () =>
       {
-        const sendRequest = await fetch('http://localhost:5000/user/signup', {
+        const sendRequest = await fetch('https://backendasm3.onrender.com/user/signup', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

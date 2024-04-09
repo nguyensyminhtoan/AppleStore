@@ -11,7 +11,7 @@ export default function Header({ setIsLogin, setUserName, isLogin, userName })
     if (isLogin)
     {
 
-      await fetch('http://localhost:5000/user/logout',
+      await fetch('https://backendasm3.onrender.com/user/logout',
         {
           method: 'GET',
           headers: { "Content-Type": "application/json" },

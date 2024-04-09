@@ -34,7 +34,7 @@ export default function ProductList({ selectedCategory })
     dispatch(setDataStore(data));
   };
   const api_key =
-    "http://localhost:5000/shop/products";
+    "https://backendasm3.onrender.com/shop/products";
   const request = async () =>
   {
     try

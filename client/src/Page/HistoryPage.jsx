@@ -11,7 +11,7 @@ const HistoryPage = () =>
   const [message, setMessage] = useState('')
   const fetchOrders = async () =>
   {
-    const sendRequest = await fetch('http://localhost:5000/history',
+    const sendRequest = await fetch('https://backendasm3.onrender.com/history',
       {
         method: "GET",
         credentials: "include"

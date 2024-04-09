@@ -20,7 +20,7 @@ export default function ChatPage({ isLogin })
   {
     const fetchAllUsers = async () =>
     {
-      const sendRequest = await fetch('http://localhost:5000/admin/users', {
+      const sendRequest = await fetch('https://backendasm3.onrender.com/admin/users', {
         method: "GET",
         credentials: "include"
       })
@@ -55,7 +55,7 @@ export default function ChatPage({ isLogin })
         if (isLogin)
         {
 
-          const sendRequest = await fetch('http://localhost:5000/get-message?userId=' + userId, {
+          const sendRequest = await fetch('https://backendasm3.onrender.com/get-message?userId=' + userId, {
             method: "GET",
             credentials: 'include'
           });
@@ -109,7 +109,7 @@ export default function ChatPage({ isLogin })
       from: 'admin',
       message: msg
     })
-    const sendRequest = await fetch('http://localhost:5000/add-message', {
+    const sendRequest = await fetch('https://backendasm3.onrender.com/add-message', {
       method: "POST",
       credentials: "include",
       headers: { "Content-Type": "application/json" },

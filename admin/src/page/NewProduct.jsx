@@ -88,7 +88,7 @@ export default function NewProduct({ products })
     formData.append('price', price)
     if (productId)
     {
-      const sendRequest = await fetch('http://localhost:5000/admin/update-product?productId=' + productId, {
+      const sendRequest = await fetch('https://backendasm3.onrender.com/admin/update-product?productId=' + productId, {
         method: "POST",
 
         credentials: "include",
@@ -108,7 +108,7 @@ export default function NewProduct({ products })
         setError('fill all to submit')
       } else
       {
-        const sendRequest = await fetch('http://localhost:5000/admin/add-product', {
+        const sendRequest = await fetch('https://backendasm3.onrender.com/admin/add-product', {
           method: "POST",
           credentials: "include",
           body: formData

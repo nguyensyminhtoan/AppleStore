@@ -14,7 +14,7 @@ export default function CartList({ setTotalPrice })
 
   const getCart = async () =>
   {
-    const sendRequest = await fetch('http://localhost:5000/shop/cart', {
+    const sendRequest = await fetch('https://backendasm3.onrender.com/shop/cart', {
       method: 'GET',
       credentials: 'include'
     })
@@ -38,7 +38,7 @@ export default function CartList({ setTotalPrice })
   const handleQuantityChange = async (productId, newQuantity) =>
   {
 
-    const sendRequest = await fetch('http://localhost:5000/shop/update-cart', {
+    const sendRequest = await fetch('https://backendasm3.onrender.com/shop/update-cart', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ export default function CartList({ setTotalPrice })
   };
   const handleDelete = async (productId) =>
   {
-    const sendRequest = await fetch(`http://localhost:5000/shop/remove-item?productId=${productId}`, {
+    const sendRequest = await fetch(`https://backendasm3.onrender.com/shop/remove-item?productId=${productId}`, {
       method: "GET",
       credentials: 'include',
     })

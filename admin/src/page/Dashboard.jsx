@@ -13,11 +13,11 @@ export default function DashBoard()
   const [selectedOrder, setSelectedOrder] = useState('')
   const fetchInformation = useCallback(async () =>
   {
-    const requestOrders = await fetch('http://localhost:5000/admin/orders', {
+    const requestOrders = await fetch('https://backendasm3.onrender.com/admin/orders', {
       method: 'GET',
       credentials: "include"
     })
-    const requestUser = await fetch('http://localhost:5000/admin/users', {
+    const requestUser = await fetch('https://backendasm3.onrender.com/admin/users', {
       method: 'GET',
       credentials: "include"
     })

@@ -13,7 +13,7 @@ export default function Products({ products, setProducts })
   {
     const fetchProducts = async () =>
     {
-      const sendRequest = await fetch('http://localhost:5000/shop/products', {
+      const sendRequest = await fetch('https://backendasm3.onrender.com/shop/products', {
         method: "GET"
       })
       const data = await sendRequest.json()
@@ -29,7 +29,7 @@ export default function Products({ products, setProducts })
   const handleDelete = async (productId) =>
   {
 
-    const sendRequest = await fetch('http://localhost:5000/admin/delete-product?productId=' + productId, {
+    const sendRequest = await fetch('https://backendasm3.onrender.com/admin/delete-product?productId=' + productId, {
       method: "DELETE",
       credentials: "include"
     })

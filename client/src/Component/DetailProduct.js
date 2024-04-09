@@ -39,7 +39,7 @@ export default function DetailProduct()
 
     const addToCart = async () =>
     {
-      const sendRequest = await fetch('http://localhost:5000/shop/add-to-cart', {
+      const sendRequest = await fetch('https://backendasm3.onrender.com/shop/add-to-cart', {
         method: 'POST',
         headers: { "Content-Type": "application/json" },
         credentials: 'include',

@@ -14,7 +14,7 @@ export default function MainNavigation()
     {
 
 
-      await fetch('http://localhost:5000/user/logout',
+      await fetch('https://backendasm3.onrender.com/user/logout',
         {
           method: 'GET',
           headers: { "Content-Type": "application/json" },

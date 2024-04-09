@@ -11,7 +11,7 @@ export default function TrendingList()
   const isPopupOpen = useSelector((state) => state.login.isPopupOpen);
   const selectedProduct = useSelector((state) => state.login.selectedProduct);
   const api_key =
-    "http://localhost:5000/shop/products";
+    "https://backendasm3.onrender.com/shop/products";
   const request = async () =>
   {
     try

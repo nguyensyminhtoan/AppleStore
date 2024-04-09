@@ -14,7 +14,7 @@ export default function CheckoutContent()
   const navigate = useNavigate()
   const fetchCart = async () =>
   {
-    const sendRequest = await fetch('http://localhost:5000/shop/cart', {
+    const sendRequest = await fetch('https://backendasm3.onrender.com/shop/cart', {
       method: 'GET',
       credentials: 'include'
     })
@@ -79,7 +79,7 @@ export default function CheckoutContent()
       buyerInformation: buyerInformation,
       totalPrice: totalPrice
     }
-    const sendRequest = await fetch('http://localhost:5000/order',
+    const sendRequest = await fetch('https://backendasm3.onrender.com/order',
       {
         method: 'POST',
         headers: { "Content-Type": "application/json" },

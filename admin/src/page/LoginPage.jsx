@@ -16,7 +16,7 @@ const LoginPage = ({ setIsLogin, setUserName, isLogin }) =>
     e.preventDefault()
     if (email && password)
     {
-      const sendRequest = await fetch('http://localhost:5000/user/signin-admin', {
+      const sendRequest = await fetch('https://backendasm3.onrender.com/user/signin-admin', {
         method: 'POST',
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
