@@ -8,7 +8,7 @@ import DetailPage from "./Page/DetailPage";
 import CartPage from "./Page/CartPage";
 import CheckoutPage from "./Page/CheckoutPage";
 import LoginPage from "./Page/LoginPage";
-import RegisterPage from "./Page/RegisterPage";
+
 import HistoryPage from "./Page/HistoryPage";
 
 function App()
@@ -24,7 +24,7 @@ function App()
         { path: "cart", element: <CartPage></CartPage> },
         { path: "checkout", element: <CheckoutPage></CheckoutPage> },
         { path: "login", element: <LoginPage></LoginPage> },
-        { path: "register", element: <RegisterPage></RegisterPage> },
+       
         { path: 'history', element: <HistoryPage></HistoryPage> }
       ],
     },
