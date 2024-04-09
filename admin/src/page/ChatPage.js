@@ -80,7 +80,7 @@ export default function ChatPage({ isLogin })
           setMessages(responseMessage);
 
 
-          socket.current = io('http://localhost:5000');
+          socket.current = io('https://backendasm3.onrender.com');
           socket.current.emit('add-user', 'admin');
           socket.current.on("msg-recieve", (data) =>
           {
