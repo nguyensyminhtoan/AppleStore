@@ -2,9 +2,9 @@
   "env":{
     "MONGODB":"mongodb+srv://donquixotex124:Saobang1@cluster0.nqawsp9.mongodb.net/asm3?retryWrites=true&w=majority&appName=Cluster0",
     "SECRET_KEY":"secretkey",
-    "ORIGIN1":"http://localhost:3000",
+    "ORIGIN1":"https://admin-2axf.onrender.com/",
     "PWGMAIL":"nacf utjn fmqr laal",
-    "ORIGIN2":"http://localhost:3001"
+    "ORIGIN2":"https://asm3-03wc.onrender.com/"
     
   }
 }
